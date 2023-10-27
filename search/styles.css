@@ -1,0 +1,35 @@
+#googleform {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input[type="submit"]{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 10px;
+}
+.navbar {
+    text-align: right;
+}
+.searchlink {
+    padding-right: 15px;
+}
+.imagelink {
+    padding-right: 15px;
+}
+.advlink {
+    padding-right: 15px;
+}

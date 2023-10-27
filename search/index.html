@@ -1,41 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Atabek Aribzhanov">
         <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <nav>
-
-        </nav>
+        <div>
+            <nav class="navbar">
+                <a  class="imagelink" href="image.html">Image</a>
+                <a class="advlink" href="advanced.html">Advanced Search</a>
+            </nav>
+        </div>
         <form id="googleform"action="https://google.com/search" autocomplete="off" method="GET" role="search">
             <input type="text" name="q">
             <input type="submit" value="Google Search" aria-label="Google Search" role="button">
             <input type="submit" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" >
         </form>
-        <style>
-            #googleform {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-            }
-            input[type="submit"]{
-                background-color: #303134;
-                border: 1px solid #303134;
-                border-radius: 4px;
-                color: #e8eaed;
-                font-family: Arial, sans-serif;
-                font-size: 14px;
-                padding: 0 16px;
-                line-height: 27px;
-                height: 36px;
-                min-width: 54px;
-                text-align: center;
-                cursor: pointer;
-                user-select: none;
-                margin-top: 10px;
-            }
-        </style>
     </body>
 </html>
