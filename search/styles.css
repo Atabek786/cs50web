@@ -1,9 +1,12 @@
 #googleform {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 1vh;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 300px;
+
 }
 input[type="submit"]{
     background-color: #303134;
@@ -21,6 +24,10 @@ input[type="submit"]{
     user-select: none;
     margin-top: 10px;
 }
+input[type="text"]{
+    width: 500px;
+    height:auto;
+}
 .navbar {
     text-align: right;
 }
@@ -32,4 +39,14 @@ input[type="submit"]{
 }
 .advlink {
     padding-right: 15px;
+}
+.logo {
+    max-width: 450px;
+    padding-top: 500px;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
 }
