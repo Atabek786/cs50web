@@ -1,52 +1,27 @@
-#googleform {
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: arial, sans-serif;
+  }
+  
+  .head {
+    height: 5vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 1vh;
-    text-align: center;
-    flex-direction: column;
-    padding-top: 300px;
-
-}
-input[type="submit"]{
-    background-color: #303134;
-    border: 1px solid #303134;
-    border-radius: 4px;
-    color: #e8eaed;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-    margin-top: 10px;
-}
-input[type="text"]{
-    width: 500px;
-    height:auto;
-}
-.navbar {
-    text-align: right;
-}
-.searchlink {
-    padding-right: 15px;
-}
-.imagelink {
-    padding-right: 15px;
-}
-.advlink {
-    padding-right: 15px;
-}
-.logo {
-    max-width: 450px;
-    padding-top: 500px;
-}
-.logo-container {
+    justify-content: flex-end;
+  }
+  
+  .head #links {
+    margin-right: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20vh;
-}
+  }
+  
+  .head #links a {
+    margin-left: 30px;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+  }

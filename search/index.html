@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="Atabek Aribzhanov">
-        <title>Search</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div>
-            <nav class="navbar">
-                <a class="imagelink" href="image.html">Image</a>
-                <a class="advlink" href="advanced.html">Advanced Search</a>
-            </nav>
+  <head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="head">
+      <div id="links">
+        <a href="googleimage.html">Image Search</a>
+        <a href="advancedPage.html">Advance Search</a>
+      </div>
+    </header>
+    <div id="main">
+      <div id="image">
+        <img src="google-text.png" alt="" />
+      </div>
+
+      <form action="https://google.com/search">
+        <div id="inputField">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search..." name="q" />
         </div>
-        <div class="logo-container">
-            <img class="logo" src="Google_2015_logo.svg.png" alt="googlelogo">
+
+        <div id="buttons">
+          <input type="submit" value="Google Search" name="btnK" />
+          <input type="submit" value="I'm Feeling Lucky" name="btnI" />
         </div>
-        <form id="googleform"action="https://google.com/search">
-            <input type="text" name="q" autocomplete="on" method="GET" role="search">
-            <br>
-            <input type="submit" value="Google Search" aria-label="Google Search" role="button">
-            <input type="submit" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" >
-        </form>
-    </body>
+      </form>
+    </div>
+  </body>
 </html>
