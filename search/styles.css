@@ -1,27 +1,17 @@
-* {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  body {
-    font-family: arial, sans-serif;
-  }
-  
-  .head {
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  
-  .head #links {
-    margin-right: 30px;
-    display: flex;
-  }
-  
-  .head #links a {
-    margin-left: 30px;
-    font-size: small;
-    color: rgba(0, 0, 0, 0.87);
-    text-decoration: none;
-  }
+html {
+  background-color: white;
+  height: 100%;
+  margin: 0px;
+}
+body {
+  font-family: arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  height: 100%;
+}
+
+.main {
+  align-content: center;
+  width: 600px;
+  margin: 5rem auto;
+}
